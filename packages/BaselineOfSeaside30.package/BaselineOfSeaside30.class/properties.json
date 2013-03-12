@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSeaside30",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSeaside30",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
