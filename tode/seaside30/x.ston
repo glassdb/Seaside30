@@ -1,0 +1,1 @@
+TDSmalltalkLeafNode {	#name : 'x',	#contents : 'false\n  ifTrue: [ \n    Metacello new\n      configuration: \'Seaside30\';\n      squeaksource: \'Seaside30\';\n      get ].\nMetacello new\n  baseline: \'Seaside30\';\n  repository: \'filetree:///opt/git/Seaside30/packages\';\n  get'}
