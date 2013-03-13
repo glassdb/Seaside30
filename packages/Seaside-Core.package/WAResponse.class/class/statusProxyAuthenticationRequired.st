@@ -1,0 +1,3 @@
+status
+statusProxyAuthenticationRequired
+	^ 407

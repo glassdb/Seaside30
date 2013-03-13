@@ -1,0 +1,3 @@
+status
+statusMethodNotAllowed
+	^ 405

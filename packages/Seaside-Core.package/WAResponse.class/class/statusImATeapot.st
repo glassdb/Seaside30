@@ -1,0 +1,3 @@
+status
+statusImATeapot
+	^ 418

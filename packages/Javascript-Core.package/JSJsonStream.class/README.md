@@ -1,0 +1,1 @@
+I am a specialization of JSStream that conforms to the JSON spec (http://www.json.org).

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-HTML5-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 4/20/2007 01:25",
+	"instvars" : [
+		 ],
+	"name" : "WATimeTag",
+	"pools" : [
+		 ],
+	"super" : "WATagBrush",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-HTML5-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAHtml5ContentTest",
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }

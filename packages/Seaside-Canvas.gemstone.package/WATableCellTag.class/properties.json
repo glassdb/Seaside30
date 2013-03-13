@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 05/18/2011 15:22",
+	"instvars" : [
+		 ],
+	"name" : "WATableCellTag",
+	"pools" : [
+		 ],
+	"super" : "WATagBrush",
+	"type" : "normal" }

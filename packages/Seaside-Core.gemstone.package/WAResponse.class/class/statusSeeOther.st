@@ -1,0 +1,3 @@
+status
+statusSeeOther
+	^ 303

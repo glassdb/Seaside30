@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Core-JSON",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 12/15/2008 19:45",
+	"instvars" : [
+		 ],
+	"name" : "JSJsonSyntaxError",
+	"pools" : [
+		 ],
+	"super" : "WAError",
+	"type" : "normal" }

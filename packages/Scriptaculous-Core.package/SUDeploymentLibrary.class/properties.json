@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Core-Libraries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SUDeploymentLibrary",
+	"pools" : [
+		 ],
+	"super" : "SUDevelopmentLibrary",
+	"type" : "normal" }

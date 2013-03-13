@@ -1,0 +1,3 @@
+status
+statusContinue
+	^ 100

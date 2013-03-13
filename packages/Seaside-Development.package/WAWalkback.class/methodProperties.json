@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"current" : "jf 3/3/2009 22:36",
+		"current:" : "jf 2/20/2009 23:19",
+		"exception:" : "jf 3/3/2009 22:26",
+		"select" : "jf 3/3/2009 22:26",
+		"unselect" : "jf 3/3/2009 22:26" },
+	"instance" : {
+		"defaultLimit" : "jf 2/20/2009 23:42",
+		"exception" : "lr 6/5/2007 19:33",
+		"exceptionDescription" : "jf 2/20/2009 23:54",
+		"frameCount" : "jf 2/20/2009 22:54",
+		"initializeWithException:" : "jf 2/20/2009 23:40",
+		"limit" : "jf 2/20/2009 23:43",
+		"limit:" : "jf 2/20/2009 23:05",
+		"renderContentOn:" : "lr 6/5/2007 21:17",
+		"renderExceptionOn:" : "jf 2/20/2009 18:09",
+		"renderHeadingOn:" : "jf 2/20/2009 23:44",
+		"renderStackOn:" : "jf 2/20/2009 23:13",
+		"renderToolsOn:" : "jf 2/20/2009 23:06",
+		"updateRoot:" : "lr 9/8/2009 12:40" } }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"application" : "lr 7/25/2011 19:53",
+		"createHandlers" : "lr 7/25/2011 19:53",
+		"session" : "lr 7/25/2011 19:53",
+		"testDeleteNetscapeCookie" : "jf 2/6/2010 00:41",
+		"testDeleteRfc2965Cookie" : "jf 2/6/2010 00:41",
+		"testNewCookie" : "jf 11/3/2009 01:15" } }

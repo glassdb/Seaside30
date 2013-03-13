@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "jf 1/30/2009 13:30" },
+	"instance" : {
+		"assertDefault:" : "jok 3/22/2010 11:53",
+		"createRegistry" : "pmm 9/5/2009 12:23",
+		"fieldName" : "jf 1/30/2009 13:16",
+		"registerNewHandler" : "pmm 8/13/2010 13:59",
+		"testNoKey" : "jf 1/30/2009 16:15" } }

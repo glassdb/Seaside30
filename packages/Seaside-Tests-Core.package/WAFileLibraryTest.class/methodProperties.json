@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAsFileName" : "jf 10/6/2008 17:18",
+		"testAsSelector" : "pmm 7/16/2007 20:13",
+		"testAsSelectorCapitalized" : "jf 10/6/2008 17:18",
+		"testAsSelectorFunky" : "lr 10/28/2007 14:42",
+		"testAsSelectorLeadingDigits" : "jf 10/6/2008 17:20",
+		"testCompileByteArray" : "jgf 2/1/2009 09:20",
+		"testCompileByteArrayAgain" : "jgf 2/1/2009 09:19",
+		"testCompileString" : "jgf 1/29/2009 09:27",
+		"testCompileStringAgain" : "jgf 1/29/2009 09:27",
+		"testFilenames" : "pmm 6/19/2011 16:48",
+		"testIsBinary" : "pmm 3/21/2008 16:12",
+		"testMainJs" : "pmm 9/5/2009 12:06",
+		"testMimeType" : "jf 10/6/2008 17:18",
+		"testName" : "pmm 12/19/2010 12:17",
+		"testNoneStatisfy" : "lr 10/28/2007 14:42",
+		"testSamplePng" : "pmm 9/5/2009 12:07",
+		"testUrlOf" : "jf 9/30/2009 01:10" } }

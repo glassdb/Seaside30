@@ -1,0 +1,1 @@
+I'm a left over from old times, use WAHtmlCanvas instead.

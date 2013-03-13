@@ -1,0 +1,19 @@
+{
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 6/1/2008 00:04",
+	"instvars" : [
+		"key",
+		"path",
+		"domain",
+		"ports",
+		"value",
+		"version" ],
+	"name" : "WARequestCookie",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

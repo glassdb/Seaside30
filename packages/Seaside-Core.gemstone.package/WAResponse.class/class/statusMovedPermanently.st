@@ -1,0 +1,3 @@
+status
+statusMovedPermanently
+	^ 301

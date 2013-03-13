@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"appendTo:" : "lr 8/24/2011 15:34",
+		"autoFocus:" : "lr 8/24/2011 15:34",
+		"close" : "lr 1/28/2010 14:33",
+		"delay:" : "lr 9/18/2010 10:46",
+		"method" : "lr 1/28/2010 14:31",
+		"minLength:" : "lr 9/18/2010 10:46",
+		"onChange:" : "lr 8/24/2011 15:34",
+		"onClose:" : "lr 1/28/2010 14:30",
+		"onFocus:" : "lr 9/18/2010 10:46",
+		"onOpen:" : "lr 9/18/2010 10:46",
+		"onSearch:" : "lr 9/18/2010 10:46",
+		"onSelect:" : "lr 9/18/2010 10:46",
+		"position:" : "lr 8/24/2011 15:34",
+		"search:" : "lr 1/28/2010 14:33",
+		"search:callback:" : "lr 10/7/2010 15:53",
+		"search:labels:callback:" : "NickAger 5/31/2011 13:57",
+		"source:" : "lr 1/28/2010 14:30",
+		"sourceCallback:" : "lr 5/3/2011 19:12" } }

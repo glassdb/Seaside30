@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-UI-Libraries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 05/18/2011 15:22",
+	"instvars" : [
+		 ],
+	"name" : "JQSouthStreetTheme",
+	"pools" : [
+		 ],
+	"super" : "JQBaseTheme",
+	"type" : "normal" }

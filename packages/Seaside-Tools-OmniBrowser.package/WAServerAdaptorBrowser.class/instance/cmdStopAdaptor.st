@@ -1,0 +1,5 @@
+commands
+cmdStopAdaptor
+	<command>
+	
+	^ WACmdStopAdaptor

@@ -1,0 +1,3 @@
+status
+statusFound
+	^ 302

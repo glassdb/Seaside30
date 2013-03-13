@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-HTML5-Callbacks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 6/14/2009 13:29",
+	"instvars" : [
+		 ],
+	"name" : "WAUrlCallback",
+	"pools" : [
+		 ],
+	"super" : "WAValueCallback",
+	"type" : "normal" }

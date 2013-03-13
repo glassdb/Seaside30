@@ -1,0 +1,3 @@
+public
+isResumable
+	^ false

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"encode:on:" : "jf 9/30/2009 01:04",
+		"initialize" : "pmm 3/20/2012 19:06",
+		"maximumCharacterValue" : "pmm 2/18/2011 22:30",
+		"on:codec:" : "pmm 12/27/2010 12:07" },
+	"instance" : {
+		"nextPut:" : "pmm 5/10/2008 22:05" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-RenderLoop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 10/19/2011 13:43",
+	"instvars" : [
+		 ],
+	"name" : "WARenderLoopContinuationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

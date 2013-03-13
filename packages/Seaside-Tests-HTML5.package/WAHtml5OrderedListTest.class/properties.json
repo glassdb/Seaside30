@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Tests-HTML5-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"reversed",
+		"start",
+		"type" ],
+	"name" : "WAHtml5OrderedListTest",
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }

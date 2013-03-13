@@ -1,0 +1,3 @@
+status
+statusGone
+	^ 410

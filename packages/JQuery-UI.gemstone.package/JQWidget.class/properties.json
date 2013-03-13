@@ -1,0 +1,15 @@
+{
+	"category" : "JQuery-UI-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 05/18/2011 15:22",
+	"instvars" : [
+		"action",
+		"arguments" ],
+	"name" : "JQWidget",
+	"pools" : [
+		 ],
+	"super" : "JQPlugin",
+	"type" : "normal" }

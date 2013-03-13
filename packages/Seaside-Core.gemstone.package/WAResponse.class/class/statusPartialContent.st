@@ -1,0 +1,3 @@
+status
+statusPartialContent
+	^ 206

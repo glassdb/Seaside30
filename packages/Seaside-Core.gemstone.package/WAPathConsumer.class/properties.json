@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-RequestHandling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/6/2009 22:08",
+	"instvars" : [
+		"path" ],
+	"name" : "WAPathConsumer",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

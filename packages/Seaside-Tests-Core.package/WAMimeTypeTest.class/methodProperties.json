@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBasic" : "jf 9/30/2009 01:10",
+		"testCharSet" : "jf 9/30/2009 01:10",
+		"testConversion" : "jf 9/30/2009 01:10",
+		"testEquals" : "pmm 1/4/2008 15:12",
+		"testIsBinary" : "pmm 11/20/2007 11:22",
+		"testIsNonStandard" : "pmm 1/4/2008 14:39",
+		"testIsVendorSpecifc" : "pmm 1/4/2008 14:37",
+		"testIssue655" : "pmm 8/23/2011 17:22",
+		"testMatches" : "pmm 1/4/2008 14:32",
+		"testNoCharSet" : "pmm 11/14/2009 22:10",
+		"testParamters" : "pmm 6/26/2011 14:13" } }

@@ -1,0 +1,3 @@
+private
+doesHandlerSupportCookies: aRequestHandler
+	^ true

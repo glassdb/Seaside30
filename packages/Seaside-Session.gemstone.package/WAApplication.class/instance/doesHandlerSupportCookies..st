@@ -1,0 +1,3 @@
+private
+doesHandlerSupportCookies: aRequestHandler
+	^ aRequestHandler isSession

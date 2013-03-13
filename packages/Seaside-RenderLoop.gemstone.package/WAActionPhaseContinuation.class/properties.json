@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-RenderLoop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 10/13/2011 09:00",
+	"instvars" : [
+		"renderContext" ],
+	"name" : "WAActionPhaseContinuation",
+	"pools" : [
+		 ],
+	"super" : "WARenderLoopContinuation",
+	"type" : "normal" }

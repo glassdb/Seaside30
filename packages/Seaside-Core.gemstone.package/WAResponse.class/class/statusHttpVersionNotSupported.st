@@ -1,0 +1,3 @@
+status
+statusHttpVersionNotSupported
+	^ 505

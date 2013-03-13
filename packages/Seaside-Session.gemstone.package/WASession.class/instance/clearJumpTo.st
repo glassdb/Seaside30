@@ -1,0 +1,3 @@
+scripts
+clearJumpTo
+	jumpTo := nil
