@@ -21,7 +21,7 @@ Transcript cr; show: 'travis--->${OUTPUT_PATH}'.
 Metacello image
   project: 'GLASS';
   get.
-Metacello
+Metacello image
   project: 'GLASS';
   version: '${GLASS}';
   load.
