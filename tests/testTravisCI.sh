@@ -31,7 +31,7 @@ gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 
 Metacello new
   baseline: 'Seaside30';
-  repository: 'filetree://', gitPath, '/filetree/packages';
+  repository: 'filetree://', gitPath, '/Seaside30/packages';
   get.
 
 Metacello new
