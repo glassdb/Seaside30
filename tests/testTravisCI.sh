@@ -31,12 +31,11 @@ gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 
 Metacello new
   baseline: 'Seaside30';
-  repository: 'filetree://', gitPath, '/filetree/repository';
+  repository: 'filetree://', gitPath, '/filetree/packages';
   get.
 
 Metacello new
   baseline: 'Seaside30';
-  repository: 'filetree://', gitPath, '/filetree/repository';
   load: #( ${LOADS} ).
 
 TravisCIHarness
