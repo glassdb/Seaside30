@@ -18,6 +18,10 @@ OUTPUT_PATH="${PROJECT_HOME}/tests/travisCI.st"
 cat - >> $OUTPUT_PATH << EOF
 | gitPath |
 Transcript cr; show: 'travis--->${OUTPUT_PATH}'.
+EOF
+
+if [ "${GLASS}x" != "x" ] ; then
+cat - >> $OUTPUT_PATH << EOF
 Metacello image
   project: 'GLASS';
   get.
@@ -25,7 +29,11 @@ Metacello image
   project: 'GLASS';
   version: '${GLASS}';
   load.
-gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
+EOF
+fi
+
+cat - >> $OUTPUT_PATH << EOF
+|gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 
 "Load Seaside30 from git repository"
 
