@@ -37,7 +37,7 @@ Metacello new
 Metacello new
   baseline: 'Seaside30';
   repository: 'filetree://', gitPath, '/filetree/repository';
-  load: '#( ${LOADS} )'.
+  load: #( ${LOADS} ).
 
 TravisCIHarness
   value: #( 'BaselineOfSeaside30' )
