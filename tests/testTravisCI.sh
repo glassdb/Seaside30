@@ -33,22 +33,22 @@ EOF
 fi
 
 cat - >> $OUTPUT_PATH << EOF
-|gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
+gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 
 "Load Seaside30 from git repository"
 
 Metacello new
-  baseline: 'Seaside30';
-  repository: 'filetree://', gitPath, '/Seaside30/packages';
+  baseline: '${BASELINE}';
+  repository: 'filetree://', gitPath, '/${REPOSITORY_BASE}';
   get.
 
 Metacello new
-  baseline: 'Seaside30';
-  repository: 'filetree://', gitPath, '/Seaside30/packages';
+  baseline: '${BASELINE}';
+  repository: 'filetree://', gitPath, '/${REPOSITORY_BASE}';
   load: #( ${LOADS} ).
 
 TravisCIHarness
-  value: #( 'BaselineOfSeaside30' )
+  value: #( 'BaselineOf${BASELINE}' )
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.
 
