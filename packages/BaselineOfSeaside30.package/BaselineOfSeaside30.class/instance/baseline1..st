@@ -8,7 +8,7 @@ baseline1: spec
           with: [ 
               spec
                 className: 'ConfigurationOfGrease';
-                versionString: #'bleedingEdge';
+                versionString: '1.0.7.2';
                 loads: #('Core');
                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
         project: 'Grease Core Tests'
