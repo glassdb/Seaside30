@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Seaside-GemStone-Flow'!
+SystemOrganization addCategory: #'Seaside-GemStone-Flow'!

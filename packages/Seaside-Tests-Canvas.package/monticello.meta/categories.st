@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Seaside-Tests-Canvas'!
+SystemOrganization addCategory: #'Seaside-Tests-Canvas'!

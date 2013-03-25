@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Seaside-Tests-GemStone-Continuation'!
+SystemOrganization addCategory: #'Seaside-Tests-GemStone-Continuation'!
