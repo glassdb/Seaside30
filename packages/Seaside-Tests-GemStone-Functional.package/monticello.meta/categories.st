@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Seaside-Tests-GemStone-Functional'!
+SystemOrganization addCategory: #'Seaside-Tests-GemStone-Functional'!

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Seaside-Tests-RenderLoop'!
+SystemOrganization addCategory: #'Seaside-Tests-RenderLoop'!

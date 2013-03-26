@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Seaside-GemStone240-Core-Notifications'!
+SystemOrganization addCategory: #'Seaside-GemStone240-Core-Notifications'!

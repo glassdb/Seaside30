@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Seaside-GemStone-ServiceTask'!
+SystemOrganization addCategory: #'Seaside-GemStone-ServiceTask'!

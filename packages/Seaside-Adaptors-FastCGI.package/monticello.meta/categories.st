@@ -1,2 +1,2 @@
-SystemOrganization addCategory: 'Seaside-Adaptors-FastCGI'!
-SystemOrganization addCategory: 'Seaside-Adaptors-FastCGI-Tests'!
+SystemOrganization addCategory: #'Seaside-Adaptors-FastCGI'!
+SystemOrganization addCategory: #'Seaside-Adaptors-FastCGI-Tests'!

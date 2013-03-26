@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Seaside-GemStone-Environment'!
+SystemOrganization addCategory: #'Seaside-GemStone-Environment'!

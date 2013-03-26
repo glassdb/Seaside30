@@ -1,2 +1,2 @@
-SystemOrganization addCategory: 'Seaside-GemStone-Tools-Production-Gems'!
-SystemOrganization addCategory: 'Seaside-GemStone-Tools-Production-ObjectLog'!
+SystemOrganization addCategory: #'Seaside-GemStone-Tools-Production-Gems'!
+SystemOrganization addCategory: #'Seaside-GemStone-Tools-Production-ObjectLog'!

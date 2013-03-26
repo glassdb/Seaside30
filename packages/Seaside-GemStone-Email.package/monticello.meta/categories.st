@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Seaside-GemStone-Email'!
+SystemOrganization addCategory: #'Seaside-GemStone-Email'!
