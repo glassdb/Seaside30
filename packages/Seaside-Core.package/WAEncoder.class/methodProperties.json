@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"encode:on:" : "lr 4/8/2007 13:42",
-		"initializeTable" : "pmm 8/6/2011 15:51",
+		"initializeTable" : "dkh 09/06/2011 13:57",
 		"maximumCharacterValue" : "lr 7/25/2011 19:48",
 		"new" : "jf 9/30/2009 00:19",
 		"on:" : "lr 3/26/2007 20:51",
@@ -9,5 +9,5 @@
 		"on:table:" : "jf 1/23/2009 19:44" },
 	"instance" : {
 		"initializeOn:table:" : "jf 1/23/2009 19:05",
-		"nextPut:" : "pmm 12/26/2010 17:49",
-		"nextPutAll:" : "pmm 12/26/2010 18:03" } }
+		"nextPut:" : "DaleHenrichs 02/14/2011 15:15",
+		"nextPutAll:" : "DaleHenrichs 06/17/2010 13:56" } }
