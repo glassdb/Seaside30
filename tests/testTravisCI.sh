@@ -47,10 +47,13 @@ Metacello new
   repository: 'filetree://', gitPath, '/${REPOSITORY_BASE}';
   load: #( ${LOADS} ).
 
-TravisCIHarness
+false ifTrue:[TravisCIHarness
   value: #( 'BaselineOf${BASELINE}' )
   value: 'TravisCISuccess.txt' 
-  value: 'TravisCIFailure.txt'.
+  value: 'TravisCIFailure.txt'.].
+
+
+(Smalltalk at: #WAPrettyPrintedDocumentTest) debug: #'testKnownEventsInTagBrush'.
 
 EOF
 
