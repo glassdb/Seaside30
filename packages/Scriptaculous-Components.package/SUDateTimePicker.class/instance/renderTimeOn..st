@@ -12,18 +12,18 @@ renderTimeOn: html
 						html textInput
 							maxLength: 2;
 							value: (self withLeadingZero: hours);
-							callback: [:v | self hours: v].
+							callback: [ :v | self hours: v ].
 						html text: ':'.
 						html textInput
 							maxLength: 2;
 							value: (self withLeadingZero: minutes);
-							callback: [:v | self minutes: v].
+							callback: [ :v | self minutes: v ].
 						showSeconds ifTrue: [
 							html text: ':'.
 							html textInput
 								maxLength: 2;
 								value: (self withLeadingZero: seconds);
-								callback: [:v | self seconds: v] ].
+								callback: [ :v | self seconds: v ] ].
 						html space.
 						html anchor
 							class: 'button';

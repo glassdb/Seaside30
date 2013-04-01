@@ -10,4 +10,4 @@ testPreFetchIsForbidden
 	[ handler handle: context ]
 		on: WAResponseNotification
 		do: [ :notification | "ignore" ].
-	self assert: context response status = WAResponse statusForbidden.
+	self assert: context response status = WAResponse statusForbidden

@@ -1,6 +1,6 @@
 tests
 testIssue655
-	| accept accpetLanguage acceptCharset acceptEncoding |
+	| accept |
 	accept := WAAccept fromString: 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'.
 	self assert: accept size = 5.
 	self assert: accept at: 1 main: 'text' sub: 'html' quality: 1.0.

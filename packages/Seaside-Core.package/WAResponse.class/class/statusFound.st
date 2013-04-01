@@ -1,3 +1,3 @@
-status
+status-redirection
 statusFound
 	^ 302

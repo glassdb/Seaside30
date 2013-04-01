@@ -10,5 +10,5 @@ tree
 			thisTab: String new
 			total: tally tally
 			totalTime: tally time
-			tallyExact: true
+			tallyExact: false
 			orThreshold: 2 ]

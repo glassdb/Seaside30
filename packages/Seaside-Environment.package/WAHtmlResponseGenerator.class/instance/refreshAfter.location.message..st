@@ -1,9 +1,11 @@
 generation
-refreshAfter: aNumber location: aUrlOrString message: aString 
+refreshAfter: aNumber location: aUrlOrString message: aString
+	self ifResetPossible: [
 	self response
 		contentType: WAMimeType textHtml;
 		refreshAfter: aNumber
-			location: aUrlOrString;
+			location: aUrlOrString ].
+	self response
 		nextPutAll: (WAHtmlCanvas builder
 				fullDocument: true;
 				render: [ :html | 

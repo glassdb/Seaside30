@@ -4,6 +4,7 @@
 	"instance" : {
 		"at:" : "jf 2/6/2009 19:34",
 		"at:ifAbsent:" : "jf 2/6/2009 19:50",
+		"at:put:" : "pmm 7/16/2011 15:56",
 		"clear" : "jf 9/27/2009 21:46",
 		"copy" : "jf 2/6/2009 20:16",
 		"copyEmpty" : "jf 9/27/2009 21:51",
@@ -34,4 +35,4 @@
 		"setReapingStrategy:" : "jf 10/5/2008 22:50",
 		"setRemovalAction:" : "jf 2/6/2009 16:51",
 		"size" : "jf 2/6/2009 20:00",
-		"store:" : "jf 2/6/2009 20:00" } }
+		"store:" : "pmm 7/16/2011 15:56" } }

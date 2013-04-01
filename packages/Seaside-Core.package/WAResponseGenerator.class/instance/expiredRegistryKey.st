@@ -10,4 +10,4 @@ expiredRegistryKey
 	self request fields keysAndValuesDo: [ :key :value |
 		(url isSeasideField: key) 
 			ifFalse: [ url addField: key value: value ] ].
-	self response redirectTo: url
+	self redirectTo: url

@@ -1,0 +1,4 @@
+accessing
+readStream
+
+	^self stream

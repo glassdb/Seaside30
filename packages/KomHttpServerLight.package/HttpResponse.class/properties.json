@@ -1,0 +1,20 @@
+{
+	"category" : "KomHttpServerLight-Protocol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"StatusCodes",
+		"StatusSymbols" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"status",
+		"contents",
+		"contentType",
+		"contentLength",
+		"fields",
+		"cookies" ],
+	"name" : "HttpResponse",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

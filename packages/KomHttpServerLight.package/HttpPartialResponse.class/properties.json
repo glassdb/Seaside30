@@ -1,0 +1,14 @@
+{
+	"category" : "KomHttpServerLight-Protocol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"producerBlock" ],
+	"name" : "HttpPartialResponse",
+	"pools" : [
+		 ],
+	"super" : "HttpResponse",
+	"type" : "normal" }

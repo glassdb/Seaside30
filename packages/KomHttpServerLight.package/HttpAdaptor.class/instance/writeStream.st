@@ -1,0 +1,4 @@
+accessing
+writeStream
+
+	^self stream

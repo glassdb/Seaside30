@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handleRequest:" : "PaulDeBruicker 6/5/2012 21:35",
+		"initializeStaticDelegate" : "PaulDeBruicker 4/19/2012 16:28",
+		"serveFilesFrom:" : "PaulDeBruicker 4/20/2012 16:20",
+		"staticDelegate" : "PaulDeBruicker 4/19/2012 16:26",
+		"wwwRootDirectory" : "SvenVanCaekenberghe 4/20/2012 10:52",
+		"wwwRootDirectory:" : "SvenVanCaekenberghe 4/20/2012 10:53" } }

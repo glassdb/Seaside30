@@ -15,7 +15,7 @@ testCrLf
 		raise: WAInvalidHeaderValueError.
 	self
 		should: [
-			collection at: 'key' append: testValue ]
+			collection at: 'key' add: testValue ]
 		raise: WAInvalidHeaderValueError.
 	self
 		should: [

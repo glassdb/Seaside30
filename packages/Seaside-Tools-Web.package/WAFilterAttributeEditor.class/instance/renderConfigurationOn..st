@@ -16,7 +16,7 @@ renderConfigurationOn: html
 								ifTrue: [
 									html anchor
 										callback: [ self show: each configurationComponent ];
-										with: 'Configure'].
+										with: 'Configure' ].
 								html space.
 								html anchor
 									callback: [ self removeFilter: each ];

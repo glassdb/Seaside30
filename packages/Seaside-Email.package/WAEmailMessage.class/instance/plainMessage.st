@@ -28,7 +28,7 @@ plainMessage
 		self headers keysAndValuesDo: [ :key :value |
 			stream 
 				nextPutAll: key greaseString; nextPut: $:; nextPut: Character space;
-				nextPutAll: value greaseString; nextPut: Character cr].
+				nextPutAll: value greaseString; nextPut: Character cr ].
 		
 		stream nextPut: Character cr. "let body start"
 		

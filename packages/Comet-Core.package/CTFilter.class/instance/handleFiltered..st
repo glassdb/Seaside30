@@ -1,6 +1,6 @@
 processing
 handleFiltered: aRequestContext
-	(aRequestContext response isKindOf: WAStreamedResponse)
+	(aRequestContext response isStreamingResponse)
 		ifFalse: [ CTStreamingServerRequired signal: 'Streaming server required.' ].
 	(aRequestContext request includesKey: CTComet headerField)
 		ifTrue: [ self cometForContext: aRequestContext ]

@@ -1,3 +1,3 @@
 private
 assertNoCookies: aResponse
-	self assert: aResponse cookies size = 0.
+	self assert: aResponse cookies isEmpty.

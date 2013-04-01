@@ -1,0 +1,4 @@
+*komhttpserverlight
+contentType
+
+	^MIMEDocument defaultContentType

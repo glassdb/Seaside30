@@ -10,5 +10,5 @@
 	"name" : "WAUrlEncoder",
 	"pools" : [
 		 ],
-	"super" : "WAEncoder",
+	"super" : "WATableBasedEncoder",
 	"type" : "normal" }

@@ -1,8 +1,10 @@
 generation
 pageExpired
+	self ifResetPossible: [
+		self response
+			doNotCache;
+			contentType: WAMimeType textHtml ].
 	self response
-		doNotCache;
-		contentType: WAMimeType textHtml;
 		nextPutAll: (WAHtmlCanvas builder
 			fullDocument: true;
 			rootBlock: [ :root | root title: 'Page Expired' ];

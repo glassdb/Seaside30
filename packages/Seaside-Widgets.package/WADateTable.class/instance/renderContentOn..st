@@ -2,7 +2,6 @@ rendering
 renderContentOn: html
 	html table
 		class: 'DateTable';
-		border: 1;
 		with: [
 			html tableRow: [
 				self renderMonthHeadingsOn: html ].

@@ -15,7 +15,8 @@ scriptMove: anInteger for: id on: script
 	anInteger < 0 ifTrue: [
 		nextIndex := (currentIndex + scrollInc) min: (items size).
 		nextIndex > currentIndex ifTrue: [
-		currentIndex + 1 to: nextIndex do: [:idx | | anItem |
+		currentIndex + 1 to: nextIndex do: [ :idx |
+			| anItem |
 			anItem := items at: idx.
 			(created includes: anItem) ifFalse: [
 				created add: anItem.

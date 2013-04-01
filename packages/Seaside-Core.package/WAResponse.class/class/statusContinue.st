@@ -1,3 +1,3 @@
-status
+status-informal
 statusContinue
 	^ 100

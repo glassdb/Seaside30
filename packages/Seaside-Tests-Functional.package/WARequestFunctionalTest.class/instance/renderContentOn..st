@@ -5,6 +5,7 @@ renderContentOn: html
 	request := self requestContext request.
 	html definitionList: [
 		self renderRemoteAddressFor: request on: html.
+		self renderSslSessionIdFor: request on: html.
 		self renderAcceptFor: request on: html.
 		self renderAcceptCharsetFor: request on: html.
 		self renderAcceptEncodingFor: request on: html.

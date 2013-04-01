@@ -1,0 +1,19 @@
+{
+	"category" : "KomHttpServerLight-Kernel",
+	"classinstvars" : [
+		"acceptTimeout",
+		"backlogSize",
+		"listenerDestroyDelay" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "klc 12/6/2007 16:32",
+	"instvars" : [
+		"portNumber",
+		"handler",
+		"socketsToDestroy",
+		"address" ],
+	"name" : "TcpListener",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

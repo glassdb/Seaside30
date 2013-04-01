@@ -1,7 +1,7 @@
 tests
 testDefaultConfig
 	| app |
-	app := self defaultDispatcher entryPointAt: 'config'.
+	app := self defaultDispatcher handlerAt: 'config'.
 	self assert: app class == WAApplication.
 	self assert: app isApplication.
 	self deny: app isDispatcher.

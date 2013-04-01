@@ -1,0 +1,17 @@
+{
+	"category" : "KomHttpServerLight-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "svp 3/5/2003 10:25",
+	"instvars" : [
+		"fullName",
+		"port",
+		"name",
+		"type" ],
+	"name" : "NetworkHost",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

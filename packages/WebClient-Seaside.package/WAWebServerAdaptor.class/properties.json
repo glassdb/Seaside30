@@ -1,0 +1,15 @@
+{
+	"category" : "WebClient-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server",
+		"certName" ],
+	"name" : "WAWebServerAdaptor",
+	"pools" : [
+		 ],
+	"super" : "WAServerAdaptor",
+	"type" : "normal" }

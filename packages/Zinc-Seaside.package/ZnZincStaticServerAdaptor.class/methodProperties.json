@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"startOn:andServeFilesFrom:" : "PaulDeBruicker 4/20/2012 16:21" },
+	"instance" : {
+		"delegate" : "PaulDeBruicker 4/19/2012 16:24",
+		"useCustomExpirationHeaders:" : "PaulDeBruicker 6/5/2012 21:55",
+		"useDefaultExpirationHeaders" : "PaulDeBruicker 5/17/2012 06:43" } }

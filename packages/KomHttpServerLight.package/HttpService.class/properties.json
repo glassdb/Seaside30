@@ -1,0 +1,16 @@
+{
+	"category" : "KomHttpServerLight-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ServerHostName",
+		"ServerType" ],
+	"commentStamp" : "svp 5/7/2003 05:21",
+	"instvars" : [
+		"plug",
+		"mode" ],
+	"name" : "HttpService",
+	"pools" : [
+		 ],
+	"super" : "TcpService",
+	"type" : "normal" }

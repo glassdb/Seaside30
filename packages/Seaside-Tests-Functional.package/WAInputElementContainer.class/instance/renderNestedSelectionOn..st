@@ -6,7 +6,7 @@ renderNestedSelectionOn: html
 		input: [
 			selectTag := html select.
 			selectTag
-				callback: [:value | nestedSelection := value ];
+				callback: [ :value | nestedSelection := value ];
 				selected: nestedSelection;
 				with: [
 					self nestedElements do: [ :list |

@@ -2,7 +2,7 @@ rendering
 renderFilesOn: html
 	html unorderedList: [
 		self library filenames
-			do: [:each |
+			do: [ :each |
 				html listItem: [
 					html anchor
 						class: 'download';

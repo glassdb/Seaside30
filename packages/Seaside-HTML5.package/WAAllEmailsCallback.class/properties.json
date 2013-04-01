@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-HTML5-Callbacks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAAllEmailsCallback",
+	"pools" : [
+		 ],
+	"super" : "WAAllValuesCallback",
+	"type" : "normal" }

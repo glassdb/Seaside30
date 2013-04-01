@@ -1,0 +1,4 @@
+queries
+isStopped
+
+	^process isNil

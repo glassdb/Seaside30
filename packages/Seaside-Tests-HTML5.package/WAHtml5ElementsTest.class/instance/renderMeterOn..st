@@ -2,15 +2,19 @@ rendering
 renderMeterOn: html
 	html heading level2; with: '<meter>'.
 	
-	html meter: '75%'.
-	html break.
-	html meter: '3/4'.
-	html break.
-	html meter: '6 blocks used (out of 8 total)'.
-	html break.
-	html meter: 'max: 100; current: 75'.
+	html meter
+		min: 1;
+		max: 100;
+		value: 75;
+		title: 'test pass rate';
+		with: '75%'.
 	html break.
 	html meter
-		min: 0;
+		min: 1;
 		max: 100;
-		value: 75.
+		low: 20;
+		high: 80;
+		optimum: 70;
+		value: 66;
+		title: 'humidity';
+		with: '66%'.

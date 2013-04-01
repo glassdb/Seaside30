@@ -1,3 +1,0 @@
-processing
-handleRequest
-	self subclassResponsibility

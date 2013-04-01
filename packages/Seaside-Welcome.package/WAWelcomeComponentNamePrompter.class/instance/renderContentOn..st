@@ -6,5 +6,4 @@ renderContentOn: html
 			on: #componentName of: self.
 		html submitButton
 			text: 'Create';
-			callback: [self answer: self componentName capitalized asSymbol]
-	]
+			callback: [ self answer: self componentName capitalized asSymbol ] ]

@@ -11,8 +11,10 @@ renderTopBarOn: html
 				for: component)
 					select: [ :each | each isActive ]).
 					
-			(selectedTools	select: [:each | each priority < 0]) do: [ :each | html render: each ]
-						separatedBy: [ html space ].
+			(selectedTools	select: [ :each | each priority < 0 ])
+				do: [ :each | html render: each ]
+				separatedBy: [ html space ].
 			html text: ' | '.	
-			(selectedTools	select: [:each | each priority >= 0]) do: [ :each | html render: each ]
-						separatedBy: [ html space ] ].
+			(selectedTools	select: [ :each | each priority >= 0 ])
+				do: [ :each | html render: each ]
+				separatedBy: [ html space ] ].

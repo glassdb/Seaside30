@@ -1,0 +1,3 @@
+accessing
+rawPostContents
+	^self rawPostFields

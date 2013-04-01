@@ -1,7 +1,7 @@
 tests
 testDefaultFiles
 	| app |
-	app := self defaultDispatcher entryPointAt: 'files'.
+	app := self defaultDispatcher handlerAt: 'files'.
 	self assert: app class == WAFileHandler.
 	self deny: app isDispatcher.
 	self deny: app isApplication.

@@ -8,9 +8,3 @@ A good way to clear all sessions is the following code:
 
 WARegistry clearAllHandlers.
 WAPlatform current garbageCollect
-
-Instance Variables
-	cookiesEnabled:		<Boolean>
-			
-cookiesEnabled
-	- Whether the client has a session cookie. This can only be true if #useSessionCookie is enabled.

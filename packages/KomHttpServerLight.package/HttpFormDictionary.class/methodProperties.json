@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"at:" : "gc 10/24/2007 10:09",
+		"at:ifAbsent:" : "brp 10/2/2004 14:53",
+		"at:put:" : "Koubo 3/17/2002 11:55",
+		"printElementsOn:" : "Koubo 3/17/2002 11:55",
+		"rawAt:" : "Koubo 3/17/2002 11:55",
+		"rawAt:ifAbsent:" : "bolot 5/2/2002 17:46" } }

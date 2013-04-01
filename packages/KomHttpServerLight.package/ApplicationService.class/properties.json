@@ -1,0 +1,17 @@
+{
+	"category" : "KomHttpServerLight-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Services" ],
+	"commentStamp" : "klc 12/6/2007 16:29",
+	"instvars" : [
+		"name",
+		"process",
+		"stopSignal",
+		"priority" ],
+	"name" : "ApplicationService",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

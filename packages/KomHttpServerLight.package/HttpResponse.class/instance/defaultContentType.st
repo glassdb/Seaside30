@@ -1,0 +1,4 @@
+defaults
+defaultContentType
+
+	^MIMEDocument contentTypeHtml

@@ -10,19 +10,20 @@ html table class: 'monthTable';
 					class: 'calendarPrevious';
 					with: [
 						html anchor
-							callback: [self previousMonth];
+							callback: [ self previousMonth ];
 							onClick: (html prototype evaluator
-										callback: [:script |
-										self previousMonthUpdateOn: script];
-										return: false);
+									callback: [ :script |
+										self previousMonthUpdateOn: script ];
+							return: false);
 							with: '<<' ].
 				html tableData class: 'monthCurrent'; with: (Date nameOfMonth: self monthIndex).
 				html tableData
 					class: 'calendarNext';
-					with: [html anchor
-							callback: [self nextMonth];
+					with: [
+						html anchor
+							callback: [ self nextMonth ] ;
 							onClick: (html prototype evaluator
-										callback: [:script | 
-											self nextMonthUpdateOn: script];
-											return: false);
-							with: '>>'] ] ]
+										callback: [ :script | 
+											self nextMonthUpdateOn: script ];
+										return: false);
+							with: '>>' ] ] ]

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"fromNamePath:" : "svp 9/11/2000 11:28",
+		"fromString:" : "svp 11/5/1999 13:15" },
+	"instance" : {
+		"domainString" : "svp 11/18/1999 19:59",
+		"fileSystemPath" : "svp 4/16/2003 13:50",
+		"fullName" : "svp 11/5/1999 13:43",
+		"httpReference" : "svp 12/9/1999 17:12",
+		"initializeFromIPAddress:" : "lr 10/12/2010 15:27",
+		"initializeFromNamePath:" : "svp 9/11/2000 11:28",
+		"initializeFromString:" : "svp 11/5/1999 13:36",
+		"initializeFromString:defaultPort:" : "svp 11/5/1999 13:43",
+		"initializePortFromString:defaultPort:" : "brp 10/2/2004 14:53",
+		"isNamedHost" : "svp 11/5/1999 13:37",
+		"machineName" : "brp 10/2/2004 14:39",
+		"name" : "svp 11/5/1999 13:37",
+		"nameString" : "CdG 11/4/2005 23:43",
+		"port" : "svp 11/5/1999 13:37",
+		"type" : "svp 11/5/1999 13:37",
+		"vhostName:letter:" : "brp 10/2/2004 15:11" } }

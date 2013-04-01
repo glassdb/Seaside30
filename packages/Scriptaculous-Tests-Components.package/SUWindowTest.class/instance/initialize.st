@@ -18,10 +18,10 @@ initialize
 								minimizeButtonEnabled: false;
 								yourself).
 	windows add: ((SUWindow on: [ :w | SUDialogTest new
-											answer: [:script | 
+											answer: [ :script | 
 												script alert: 'Window will be closed'. 
 												script add: (JSStream on: '$("overlay").hide()').
-												w closeOn: script];
+												w closeOn: script ];
 											yourself ]) 
 										id: 'dialog_window';
 										closeButtonEnabled: false;

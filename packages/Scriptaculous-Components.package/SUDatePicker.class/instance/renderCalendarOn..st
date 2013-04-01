@@ -3,11 +3,11 @@ renderCalendarOn: html
 	html tableRow: [
 		html tableHeading
 			colSpan: 9;
-			with: [self renderMonthNavigationOn: html ] ].
+			with: [ self renderMonthNavigationOn: html ] ].
 	html tableRow
 			class: 'calendarTitle';
 			with: [
-				self weekDays do: [:each |
+				self weekDays do: [ :each |
 					html tableData
 						class: 'weekDay';
 						with: each ] ].
@@ -15,6 +15,6 @@ renderCalendarOn: html
 	html tableRow: [
 		html tableData
 			colSpan: 9;
-			with: [self renderYearNavigationOn: html] ]	
+			with: [ self renderYearNavigationOn: html ] ]	
 
 			

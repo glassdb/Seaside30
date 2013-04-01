@@ -4,7 +4,7 @@ renderRadioButtonsOn: html
 		renderLabel: 'Radiogroup'
 		input: [
 			html radioGroup
-				callback: [:value | radio := value];
+				callback: [ :value | radio := value ];
 				selected: radio;
 				with: [ :group |
 					self elements do: [ :each |

@@ -2,12 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"autocompleter" : "jf 9/30/2009 01:02",
-		"draggable" : "jf 9/30/2009 01:02",
-		"droppable" : "jf 9/30/2009 01:02",
-		"effect" : "jf 9/30/2009 01:02",
-		"inPlaceCollectionEditor" : "jf 9/30/2009 01:02",
-		"inPlaceEditor" : "jf 9/30/2009 01:02",
-		"scriptaculous" : "jf 7/19/2009 18:44",
-		"slider" : "jf 9/30/2009 01:02",
-		"sortable" : "jf 9/30/2009 01:02" } }
+		"scriptaculous" : "jf 7/19/2009 18:44" } }

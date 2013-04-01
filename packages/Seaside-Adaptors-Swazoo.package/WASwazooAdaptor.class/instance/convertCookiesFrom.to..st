@@ -2,7 +2,7 @@ private
 convertCookiesFrom: aWAResponse to: aSwazooResponse
 	| cookies setCookieField setCookie2Field |
 	cookies := aWAResponse cookies.
-	cookies isEmpty ifTrue: [ ^self ].
+	cookies isEmpty ifTrue: [ ^ self ].
 	
 	setCookieField := WorkingHTTPSetCookieField new.
 	setCookie2Field := WorkingHTTPSetCookie2Field new.

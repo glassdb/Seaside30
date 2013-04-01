@@ -1,7 +1,7 @@
 tests
 testAllTests
 	| app |
-	app := self defaultDispatcher entryPointAt: 'tests/functional'.
+	app := self defaultDispatcher handlerAt: 'tests/functional'.
 	self assert: app class == WAApplication.
 	self assert: app isApplication.
 	self deny: app isDispatcher.

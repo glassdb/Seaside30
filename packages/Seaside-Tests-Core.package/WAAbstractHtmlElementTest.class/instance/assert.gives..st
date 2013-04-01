@@ -2,7 +2,7 @@ private
 assert: aBlock gives: aString
 	| html |
 	html := String streamContents: [ :stream |
-		| context root  document |
+		| context root document |
 		document := WAHtmlDocument on: stream.
 		context := WARenderContext new
 			actionUrl: WAUrl new;

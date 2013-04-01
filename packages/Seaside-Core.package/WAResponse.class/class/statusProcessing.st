@@ -1,3 +1,3 @@
-status
+status-informal
 statusProcessing
 	^ 102

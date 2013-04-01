@@ -1,8 +1,10 @@
 generation
 forbidden
+	self ifResetPossible: [
+		self response
+			forbidden;
+			contentType: WAMimeType textHtml ].
 	self response
-		forbidden;
-		contentType: WAMimeType textHtml;
 		nextPutAll: (WAHtmlCanvas builder
 			fullDocument: true;
 			rootBlock: [ :root | root title: 'Forbidden' ];

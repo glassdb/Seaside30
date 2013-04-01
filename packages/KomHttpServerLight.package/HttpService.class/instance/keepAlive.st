@@ -1,0 +1,3 @@
+configuration
+keepAlive
+	^ HttpAdaptor keepAlive

@@ -1,0 +1,3 @@
+accessing
+postContents
+	^ self postFields

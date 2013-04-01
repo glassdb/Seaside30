@@ -1,0 +1,19 @@
+{
+	"category" : "KomHttpServerLight-Protocol",
+	"classinstvars" : [
+		"dataTimeout",
+		"keepAlive",
+		"maxKeepAliveRequests",
+		"responseChunkSize" ],
+	"classvars" : [
+		"LastTimeStamp",
+		"LastTimeStampTime" ],
+	"commentStamp" : "svp 5/15/2003 10:27",
+	"instvars" : [
+		"stream",
+		"httpService" ],
+	"name" : "HttpAdaptor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -2,10 +2,10 @@ description
 describeOn: config
 	(config collection: #libraries)
 		options: [ self libraryClasses ].
-	(config list: #mainClass)
+	(config list: #initialContinuationClass)
 		beAdvanced;
-		options: [ self mainClasses ];
-		default: WAMain.
+		options: [ self continuationClasses ];
+		default: WANullSessionContinuation.
 	(config string: #mimeType)
 		beAdvanced;
 		label: 'MIME Type';
@@ -20,4 +20,8 @@ describeOn: config
 	(config list: #sessionClass)
 		comment: 'Sessions in this application will be instances of this class.';
 		options: [ self sessionClasses ];
-		default: WASession
+		default: WASession.
+	(config listOfClasses: #trackingStrategy)
+		comment: 'How sessions and document handlers should be tracked.';
+		options: [ self trackingStrategyClasses ];
+		default: WAQueryFieldHandlerTrackingStrategy new

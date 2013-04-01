@@ -1,6 +1,6 @@
 private
 pathElementsIn: aString do: aOneArgumentBlock
-	self
+	GRPlatform
 		subStringsIn: aString
 		splitBy: $/
 		do: aOneArgumentBlock

@@ -5,7 +5,7 @@ renderMoveUpAndDownOn: html
 			title: 'Move selected element up';
 			onClick: 'return submitForm(this)';
 			callback: [ self moveUp ];
-			with: [html html: '&uarr;'].
+			with: [ html html: '&uarr;' ].
 			html break; break. 
 			html anchor
 				title: 'Move selected element down';

@@ -7,5 +7,5 @@ renderContentOn: html
 			html anchor 
 				callback: [ self choose: assoc ]; 
 				with: assoc key.
-			html text: ' >> '].
+			html text: ' >> ' ].
 		html strong: stack last key ]

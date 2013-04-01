@@ -1,0 +1,3 @@
+*komhttpserverlight
+contentType
+	^self mimeType

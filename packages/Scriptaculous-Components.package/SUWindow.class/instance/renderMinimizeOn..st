@@ -5,7 +5,7 @@ renderMinimizeOn: html
 			html anchor
 					title: 'Minimize';
 					onClick: (html prototype evaluator
-									callback: [:script | 
-												self collapseOn: script];
+									callback: [ :script | 
+												self collapseOn: script ];
 												return: false);
 					with: '-' ]

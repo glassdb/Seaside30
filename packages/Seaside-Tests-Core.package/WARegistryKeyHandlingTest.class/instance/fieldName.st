@@ -1,3 +1,3 @@
 private
 fieldName
-	^ '_key'
+	^ '_s'

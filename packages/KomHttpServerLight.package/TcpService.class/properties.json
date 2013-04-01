@@ -1,0 +1,15 @@
+{
+	"category" : "KomHttpServerLight-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PortAssignments" ],
+	"commentStamp" : "klc 12/6/2007 16:33",
+	"instvars" : [
+		"portNumber",
+		"address" ],
+	"name" : "TcpService",
+	"pools" : [
+		 ],
+	"super" : "ApplicationService",
+	"type" : "normal" }

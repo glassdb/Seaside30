@@ -12,6 +12,4 @@ debugAndResume: anException
 	to #open:. Squeak currently resumes the context that opened the Debugger, which
 	results in the call to #open: returning."
 
-	^ anException isResumable
-		ifTrue: [ anException resume ]
-		ifFalse: [ self unableToResumeResponse ]
+	^ self resume: anException

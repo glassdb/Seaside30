@@ -1,7 +1,6 @@
 displaying
 greaseString
-	^ String streamContents: 
-		[ :stream | 
+	^ String streamContents: [ :stream | 
 		self 
 			encodeOn: stream
 			usingQuotes: true ]

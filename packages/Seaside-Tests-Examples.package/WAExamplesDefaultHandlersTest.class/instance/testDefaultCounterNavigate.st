@@ -1,7 +1,7 @@
 tests
 testDefaultCounterNavigate
 	| app |
-	app := self defaultDispatcher entryPointAt: 'examples'.
+	app := self defaultDispatcher handlerAt: 'examples'.
 	self assert: app class == WADispatcher.
 	self assert: app isDispatcher.
 	self deny: app isRoot.
@@ -9,7 +9,7 @@ testDefaultCounterNavigate
 	self deny: app parent isNil.
 	self assert: app name = 'examples'.
 	self assert: app url pathString = '/examples'.
-	app := app entryPointAt: 'counter'.
+	app := app handlerAt: 'counter'.
 	self assert: app class == WAApplication.
 	self assert: app isApplication.
 	self deny: app isDispatcher.

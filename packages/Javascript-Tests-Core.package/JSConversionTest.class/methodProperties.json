@@ -17,4 +17,5 @@
 		"testStringBasic" : "lr 10/13/2008 21:48",
 		"testStringEscaping" : "lr 10/13/2008 21:48",
 		"testStringSpecial" : "lr 7/16/2009 08:52",
+		"testStringSpecialLineTerminator" : "pmm 5/2/2012 20:16",
 		"testUrl" : "lr 10/13/2008 21:48" } }

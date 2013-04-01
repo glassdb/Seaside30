@@ -1,0 +1,14 @@
+{
+	"category" : "KomHttpServerLight-Protocol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/19/2012 14:17",
+	"instvars" : [
+		 ],
+	"name" : "HttpCommittedResponse",
+	"pools" : [
+		 ],
+	"super" : "HttpResponse",
+	"type" : "normal" }

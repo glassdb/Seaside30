@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"beOptional" : "lr 10/28/2007 14:42",
-		"beSubmitOnChange" : "jf 9/30/2009 01:02",
 		"before" : "lr 6/6/2007 17:44",
 		"callback:" : "obi 12/30/2009 14:28",
 		"callbackClass" : "lr 1/23/2010 14:04",

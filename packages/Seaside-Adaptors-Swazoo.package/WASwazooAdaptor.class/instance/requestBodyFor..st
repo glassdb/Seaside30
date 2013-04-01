@@ -12,5 +12,5 @@ requestBodyFor: aNativeRequest
 		aNativeRequest postData setParsed.
 		^ body ].
 	aNativeRequest isPut
-		ifTrue: [ ^aNativeRequest putData ].
-	^nil
+		ifTrue: [ ^ aNativeRequest putData ].
+	^ nil

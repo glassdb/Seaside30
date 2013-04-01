@@ -1,5 +1,9 @@
 processing
 handleFiltered: aRequestContext
-	(self exceptionHandler)
-		handleExceptionsDuring: [ super handleFiltered: aRequestContext ]
-		context: aRequestContext
+	| handler |
+	handler := self exceptionHandler context: aRequestContext.
+	handler handleExceptionsDuring: [
+		WACurrentExceptionHandler
+			use: handler
+			during: [ super handleFiltered: aRequestContext ] ]
+		

@@ -1,3 +1,3 @@
-status
+status-success
 statusOk
 	^ 200

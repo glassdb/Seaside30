@@ -6,7 +6,7 @@ renderGroup: aBlock named: aName on: html
 				class: 'groupTitle';
 				with: [
 					html label: aName.
-					self renderActionsOn: html].
+					self renderActionsOn: html ].
 			self collapsed 
 				ifFalse: [
 					self showHelp 

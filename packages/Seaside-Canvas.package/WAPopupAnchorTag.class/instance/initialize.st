@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	name := '_blank'.
+	windowTitle := '_blank'.
 	features := GRSmallDictionary new

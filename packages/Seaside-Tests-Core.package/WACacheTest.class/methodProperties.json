@@ -5,6 +5,7 @@
 		"setUp" : "lr 1/10/2009 12:49",
 		"testAt" : "lr 10/4/2008 19:52",
 		"testAtIfAbsent" : "lr 10/4/2008 19:53",
+		"testAtPut" : "pmm 7/16/2011 15:55",
 		"testClear" : "jf 2/6/2009 19:24",
 		"testCopy" : "jf 2/6/2009 20:24",
 		"testKeyAtValue" : "jf 2/6/2009 19:24",

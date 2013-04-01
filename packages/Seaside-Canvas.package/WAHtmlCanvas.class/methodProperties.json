@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"builder" : "jf 2/15/2009 21:00" },
+		"builder" : "jf 2/15/2009 21:00",
+		"initialize" : "pmm 9/28/2011 18:59",
+		"unload" : "pmm 9/28/2011 18:59" },
 	"instance" : {
 		"abbreviated" : "lr 4/9/2007 17:01",
 		"abbreviated:" : "pmm 9/30/2006 20:06",
@@ -49,7 +51,6 @@
 		"form:" : "avi 6/3/2005 15:40",
 		"heading" : "lr 10/28/2007 14:42",
 		"heading:" : "ac 3/16/2005 14:14",
-		"heading:level:" : "jf 9/30/2009 01:02",
 		"hiddenInput" : "as 2/6/2011 22:01",
 		"horizontalRule" : "lr 10/28/2007 14:42",
 		"html:" : "jf 9/30/2009 01:10",
@@ -62,8 +63,6 @@
 		"inserted:" : "pmm 3/28/2007 10:41",
 		"keyboard" : "lr 10/28/2007 14:42",
 		"keyboard:" : "lr 4/9/2007 17:23",
-		"keyboardInput" : "jf 9/30/2009 01:02",
-		"keyboardInput:" : "jf 9/30/2009 01:02",
 		"label" : "lr 10/28/2007 14:42",
 		"label:" : "avi 6/3/2005 15:40",
 		"legend" : "lr 10/28/2007 14:42",
@@ -82,7 +81,6 @@
 		"optionGroup:" : "as 2/6/2011 22:01",
 		"orderedList" : "lr 10/28/2007 14:42",
 		"orderedList:" : "lr 9/25/2005 11:52",
-		"painter" : "pmm 2/12/2011 14:30",
 		"paragraph" : "lr 10/28/2007 14:42",
 		"paragraph:" : "avi 6/3/2005 15:40",
 		"parameter" : "lr 10/28/2007 14:42",
@@ -101,8 +99,6 @@
 		"radioGroup:" : "as 2/6/2011 22:01",
 		"sample" : "lr 10/28/2007 14:42",
 		"sample:" : "lr 4/9/2007 17:23",
-		"sampleOutput" : "jf 9/30/2009 01:02",
-		"sampleOutput:" : "jf 9/30/2009 01:02",
 		"script" : "lr 10/28/2007 14:42",
 		"script:" : "avi 6/3/2005 15:40",
 		"select" : "as 2/6/2011 22:01",

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:equals:" : "pmm 2/18/2012 16:06",
+		"jsonOn:" : "pmm 2/18/2012 16:06",
+		"testArray" : "pmm 2/18/2012 16:06",
+		"testCharacter" : "pmm 2/18/2012 16:06",
+		"testCustomArray" : "pmm 2/18/2012 16:06",
+		"testCustomDictionary" : "pmm 2/18/2012 16:06",
+		"testDictionary" : "pmm 2/18/2012 16:06",
+		"testLiteral" : "pmm 2/18/2012 16:06",
+		"testNumber" : "pmm 2/18/2012 16:06",
+		"testObject" : "pmm 2/18/2012 16:06",
+		"testStringBasic" : "pmm 2/18/2012 16:06",
+		"testStringEscaping" : "pmm 2/18/2012 16:06",
+		"testStringMultiByte" : "pmm 2/18/2012 16:06",
+		"testStringSpecial" : "pmm 2/18/2012 16:06" } }

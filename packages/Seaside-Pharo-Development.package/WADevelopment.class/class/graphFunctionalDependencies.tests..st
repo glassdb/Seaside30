@@ -7,7 +7,17 @@ graphFunctionalDependencies: functionalBool tests: testsBool
 		collect: [ :each | PackageInfo named: each name ].
 	testsBool 
 		ifFalse: [ packages := packages reject: [ :each | each packageName includesSubString: '-Tests-' ] ].
-	analyzer := (Smalltalk classNamed: #PDPackageAnalyzer) onPackages: packages.
+	(Smalltalk hasClassNamed: #PDPackageAnalyzer) ifFalse: [ 
+		| goferClass |
+		goferClass := (Smalltalk classNamed: #Gofer)
+			ifNil: [ self error: 'Please install Gofer.' ].
+		goferClass new
+			renggli: 'packaging';
+			package: 'GraphViz';
+			package: 'Package-Dependencies';
+			load ].
+	analyzer := (Smalltalk classNamed: #PDGraphPackageAnalyzer)
+		onPackages: packages.
 	functionalBool ifTrue: [ 
 		GRPackage packages 
 			do: [ :package | 

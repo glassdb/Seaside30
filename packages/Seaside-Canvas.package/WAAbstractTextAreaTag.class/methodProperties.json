@@ -2,7 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"callback:" : "MAD 2/20/2009 16:04",
-		"exampleText:" : "jf 9/30/2009 01:02",
-		"setCursorPosition:" : "jf 9/30/2009 01:02",
-		"setSelectionFrom:to:" : "jf 9/30/2009 01:02" } }
+		"callback:" : "MAD 2/20/2009 16:04" } }

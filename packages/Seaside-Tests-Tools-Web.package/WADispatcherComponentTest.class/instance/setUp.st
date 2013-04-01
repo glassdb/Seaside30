@@ -4,13 +4,7 @@ setUp
 	rootHandler := WADispatcher new.
 	rootHandler := rootHandler register: WADispatcher new at: 'seaside'.
 	childHandler := rootHandler register: WADispatcher new at: 'child'.
-	configApplication := WAAdmin register: WAApplication 
-		at: 'config'
-		in: rootHandler.
-	configApplication configuration addParent: WARenderLoopConfiguration instance.
-	configApplication 
-		preferenceAt: #rootClass
-		put: WAConfigurationBrowser.
+	configApplication := WAAdmin register: WAConfigurationBrowser asApplicationAt: 'config' in: rootHandler.
 	normalApplication := WAAdmin register: WAApplication 
 		at: 'counter'
 		in: childHandler.

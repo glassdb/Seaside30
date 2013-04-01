@@ -11,7 +11,7 @@ renderAncestryListOn: html
 						size: 5;
 						selected: selectedConfiguration contents;
 						class: 'fix';
-						labels: [ :each | each isShared ifTrue: ['(*) ' , each name ] ifFalse: [ each name ]];
+						labels: [ :each | each isShared ifTrue: [ '(*) ' , each name ] ifFalse: [ each name ] ];
 						list: self configuration parents;
 						callback: [ :value | selectedConfiguration contents: value ] ].
 			html tableData: [
@@ -30,8 +30,8 @@ renderAncestryListOn: html
 				html anchor
 					title: 'Move parent down';
 					onClick: 'return submitForm(this)';
-					callback: [self configuration moveParentDown: selectedConfiguration contents ];
-					with: [html html: '&darr;' ] ] ] ].
+					callback: [ self configuration moveParentDown: selectedConfiguration contents ];
+					with: [ html html: '&darr;' ] ] ] ].
 	html break.
 	html anchor
 		class: 'large';

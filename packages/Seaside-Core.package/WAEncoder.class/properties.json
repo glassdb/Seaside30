@@ -1,13 +1,12 @@
 {
 	"category" : "Seaside-Core-Document",
 	"classinstvars" : [
-		"table" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jf 1/23/2009 19:50",
+	"commentStamp" : "pmm 8/14/2011 13:15",
 	"instvars" : [
-		"stream",
-		"table" ],
+		"stream" ],
 	"name" : "WAEncoder",
 	"pools" : [
 		 ],

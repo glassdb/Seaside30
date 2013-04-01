@@ -6,6 +6,6 @@ renderHeaderForColumn: aColumn on: html
 			aColumn canSort
 				ifTrue: [
 					html anchor
-						callback: [self sortColumn: aColumn];
-						with: aColumn title]
+						callback: [ self sortColumn: aColumn ];
+						with: aColumn title ]
 				ifFalse: [ html text: aColumn title ] ]

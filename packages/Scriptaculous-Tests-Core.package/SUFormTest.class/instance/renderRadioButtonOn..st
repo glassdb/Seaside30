@@ -4,7 +4,7 @@ renderRadioButtonOn: html
 		renderLabel: 'Radio-Button'
 		control: [ :fid :mid |
 			html radioGroup
-				callback: [:value | radioButton := value ];
+				callback: [ :value | radioButton := value ];
 				selected: radioButton;
 				with: [ :group |
 					1 to: 3 do: [ :each |

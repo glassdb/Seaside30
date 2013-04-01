@@ -10,5 +10,5 @@
 	"name" : "WASessionContinuation",
 	"pools" : [
 		 ],
-	"super" : "WAObject",
+	"super" : "WARequestHandler",
 	"type" : "normal" }

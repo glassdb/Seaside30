@@ -2,8 +2,8 @@ accessing
 exceptionDescription
 	"Return a short string describing the exception."
 
-	| e |
 	^ String streamContents: [ :stream |
+		| e |
 		e := self exception.
 		stream nextPutAll: e class name.
 		e messageText isNil ifFalse: [

@@ -5,4 +5,4 @@ continue
 	renderContinuation captureState.
 	(self shouldRedirect) 
 		ifTrue: [ self redirectToContinuation: renderContinuation ]
-		ifFalse: [ renderContinuation basicValue ]
+		ifFalse: [ renderContinuation handle: self requestContext ]

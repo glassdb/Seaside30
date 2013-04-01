@@ -4,8 +4,7 @@ raiseDeprecated
 		greaseDeprecatedApi: 'WAExceptionFunctionalTest>>#raiseDeprecated'
 		details: 'Test action phase deprecation.'.
 	self 
-		inform: 
-			[ :html | 
+		inform: [ :html | 
 			self 
 				greaseDeprecatedApi: 'WAExceptionFunctionalTest>>#raiseDeprecated'
 				details: 'Test render phase deprecation.'.

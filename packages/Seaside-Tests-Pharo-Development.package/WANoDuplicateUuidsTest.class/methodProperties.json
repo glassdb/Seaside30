@@ -2,6 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"checkAncestorsOf:context:" : "pmm 7/23/2011 21:25",
-		"checkForDuplicates:" : "pmm 7/23/2011 21:30",
-		"testNoDuplicateUuids" : "pmm 7/23/2011 21:29" } }
+		"testNoDuplicateUuids" : "pmm 4/16/2012 17:24" } }

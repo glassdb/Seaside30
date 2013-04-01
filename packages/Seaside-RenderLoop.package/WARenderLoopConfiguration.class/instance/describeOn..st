@@ -4,13 +4,13 @@ describeOn: config
 		beAdvanced;
 		group: #renderLoop;
 		comment: 'The continuation used for the Render Loop''s action phase.';
-		options: [ self continuationClasses ];
-		default: WAActionPhaseContinuation.
+		options: [ self actionPhaseContinuationClasses ];
+		default: WACallbackProcessingActionContinuation.
 	(config list: #renderPhaseContinuationClass)
 		beAdvanced;
 		group: #renderLoop;
 		comment: 'The continuation used for the Render Loop''s render phase.';
-		options: [ self continuationClasses ];
+		options: [ self renderPhaseContinuationClasses ];
 		default: WARenderPhaseContinuation.
 	(config list: #rootClass)
 		comment: 'The root component of this seaside application.';
@@ -19,4 +19,4 @@ describeOn: config
 		comment: 'The decoration clases that should wrap the root component.';
 		options: [ self rootDecorationClasses ].
 	config
-		at: #mainClass put: WARenderLoopMain
+		at: #initialContinuationClass put: WAInitialRenderLoopContinuation

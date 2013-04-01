@@ -1,9 +1,7 @@
 instance creation
 fromString: aString
 	^ Array streamContents: [ :stream |
-		| values |
-		values := aString subStrings: ','.
-		values do: [ :each |
+		GRPlatform subStringsIn: aString splitBy: $, do: [ :each |
 			| value quality |
 			value := self valueClass fromString: (each copyUpTo: $;) trimBoth.
 			quality := (each includes: $;)

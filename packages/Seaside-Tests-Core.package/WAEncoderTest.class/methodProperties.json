@@ -3,5 +3,7 @@
 		"shouldInheritSelectors" : "lr 2/7/2009 22:34" },
 	"instance" : {
 		"assert:encoder:gives:" : "jf 1/23/2009 14:49",
-		"testEncodedUrl" : "lr 10/18/2008 12:15",
-		"testEncodedXml" : "lr 2/22/2010 08:08" } }
+		"testEncodedUrl" : "pmm 8/15/2011 08:13",
+		"testEncodedXml" : "pmm 8/15/2011 08:14",
+		"urlEncoderClass" : "pmm 8/15/2011 08:13",
+		"xmlEncoderClass" : "pmm 8/15/2011 08:13" } }

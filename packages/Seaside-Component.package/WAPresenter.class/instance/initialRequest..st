@@ -6,4 +6,5 @@ initialRequest: aRequest
 
 	You can not use #call: in here. Consider using a WATask instead and sending #call: in #go.
 
-	See WABrowser for examples."
+	See WABrowser for examples.
+	You may want to access the WAPathConsumer (self requestContext consumer) to get a hold of the unconsumed path."

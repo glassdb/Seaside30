@@ -6,10 +6,10 @@ renderInputForSelector: selector withLabel: labelString options: optionCollectio
 		html tableData: [
 			html label
 				for: id;
-				with: labelString].
+				with: labelString ].
 		html tableData: [
 			html select
 				id: id;
 				list: optionCollection;
 				callback: [ :value |  self setSelector: selector toInstanceOf: value ];
-				with: (self cache perform: selector)] ]
+				with: (self cache perform: selector) ] ]

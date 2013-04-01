@@ -4,6 +4,7 @@ isBinary
 	| subTypes |
 	self main = 'text' ifTrue: [ ^ false ].
 	self main = 'application' ifFalse: [ ^ true ].
-	subTypes := self sub subStrings: '+'.
-	^ subTypes noneSatisfy: [ :each | 
-		#('x-javascript' 'xml') includes: each ]
+	GRPlatform subStringsIn: self sub splitBy: $+ do: [ :each |
+		(#('x-javascript' 'xml') includes: each)
+			ifTrue: [ ^ false ] ].
+	^ true

@@ -1,0 +1,3 @@
+authentication
+secretWord
+	^HttpRequest secretWord

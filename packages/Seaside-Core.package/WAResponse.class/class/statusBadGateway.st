@@ -1,3 +1,3 @@
-status
+status-server-error
 statusBadGateway
 	^ 502

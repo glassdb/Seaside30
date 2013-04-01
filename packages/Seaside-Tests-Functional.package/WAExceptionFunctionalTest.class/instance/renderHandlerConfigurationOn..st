@@ -16,6 +16,6 @@ renderHandlerConfigurationOn: html
 				selected: (filter configuration at: attribute key);
 				callback: [ :value | 
 					value isNil
-						ifTrue: [ filter configuration removeExpressionAt: attribute key ifAbsent: [] ]
+						ifTrue: [ filter configuration removeExpressionAt: attribute key ifAbsent: [ ] ]
 						ifFalse: [ filter configuration takeValue: value forAttribute: attribute ] ].
 			html submitButton with: 'Set Handler' ] ]

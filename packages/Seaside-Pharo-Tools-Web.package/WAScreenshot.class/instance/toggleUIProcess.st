@@ -1,5 +1,7 @@
 actions
 toggleUIProcess
-	self uiProcess isSuspended
-		ifTrue: [ self uiProcess resume ]
-		ifFalse: [ self uiProcess suspend ]
+	| uiProcess |
+	uiProcess := UIManager default uiProcess.
+	uiProcess isSuspended
+		ifTrue: [ uiProcess resume ]
+		ifFalse: [ uiProcess suspend ]

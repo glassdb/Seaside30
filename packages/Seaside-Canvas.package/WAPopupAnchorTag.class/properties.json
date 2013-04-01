@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "lr 7/4/2007 20:46",
 	"instvars" : [
-		"name",
+		"windowTitle",
 		"features" ],
 	"name" : "WAPopupAnchorTag",
 	"pools" : [

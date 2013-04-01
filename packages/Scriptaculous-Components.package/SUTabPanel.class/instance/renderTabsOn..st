@@ -13,5 +13,5 @@ renderTabsOn: html
 						onClick: (html prototype evaluator
 							callback: [ :script | self scriptSelected: element on: script ];
 							return: false);
-						callback: [self selected: element];
+						callback: [ self selected: element ];
 						with: element label ] ] ]

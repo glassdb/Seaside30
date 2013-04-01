@@ -1,7 +1,7 @@
 rendering
 renderEntityTableBodyOn: html
 	html tableBody: [
-		self entities do: [:eachEntity |
+		self entities do: [ :eachEntity |
 			html tableRow: [
 				html tableData scope: 'row';
 					with: eachEntity first.

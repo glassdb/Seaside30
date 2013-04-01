@@ -6,5 +6,4 @@ renderContentOn: html
 			on: #authorName of: self.
 		html submitButton
 			text: 'OK';
-			callback: [self handleAuthorNameSubmission]
-	]
+			callback: [ self handleAuthorNameSubmission ] ]

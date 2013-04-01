@@ -1,3 +1,0 @@
-scripts
-clearJumpTo
-	jumpTo := nil

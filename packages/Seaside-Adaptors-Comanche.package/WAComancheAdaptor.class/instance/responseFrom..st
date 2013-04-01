@@ -1,17 +1,21 @@
 converting
 responseFrom: aRequestContext 
-	| response |
-	response := HttpResponse new.
-	aRequestContext response headers keysAndValuesDo: [ :key :value | 
+	| nativeResponse seasideResponse |
+	seasideResponse := aRequestContext response.
+	aRequestContext response isCommitted ifTrue: [
+		(aRequestContext response) flush; close.
+		^ HttpCommittedResponse new ].
+	nativeResponse := HttpResponse new.
+	seasideResponse headers keysAndValuesDo: [ :key :value | 
 		key = 'Content-Type' 
-			ifTrue: [ response contentType: value greaseString ]
+			ifTrue: [ nativeResponse contentType: value greaseString ]
 			ifFalse: [
-				response 
+				nativeResponse 
 					fieldAt: key
 					put: value greaseString ] ].
 	self 
-		convertCookiesFrom: aRequestContext response
-		to: response.
-	response status: (HttpResponse statusSymbolFor: aRequestContext response status).
-	response contents: aRequestContext response stream contents readStream.
-	^ response
+		convertCookiesFrom: seasideResponse
+		to: nativeResponse.
+	nativeResponse status: (HttpResponse statusSymbolFor: seasideResponse status).
+	nativeResponse contents: seasideResponse stream contents readStream.
+	^ nativeResponse

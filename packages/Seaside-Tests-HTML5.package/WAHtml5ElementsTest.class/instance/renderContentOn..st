@@ -8,4 +8,7 @@ renderContentOn: html
 	self renderDetailsOn: html.
 	self renderMenuOn: html.
 	self renderHeadingGroupOn: html.
-	self renderBidirectionalOn: html
+	self renderBidirectionalOn: html.
+	self renderBidirectionalOverrideOn: html.
+	self renderOutputOn: html.
+	self renderTrackOn: html

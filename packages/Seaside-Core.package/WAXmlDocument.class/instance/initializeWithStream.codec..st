@@ -1,5 +1,5 @@
 initialization
 initializeWithStream: aStream codec: aCodec
 	super initializeWithStream: aStream codec: aCodec.
-	xmlEncoder := WAXmlEncoder on: aStream.
-	urlEncoder := WAUrlEncoder on: aStream codec: aCodec
+	xmlEncoder := GRPlatform current xmlEncoderOn: aStream.
+	urlEncoder := GRPlatform current urlEncoderOn: aStream codec: aCodec

@@ -6,8 +6,8 @@ processRendering: aResponse
 
 	"Create objects we need"
 	document := self requestContext newDocument.
-	actionContinuation := self createActionContinuation.
 	renderContext := self createRenderContext.
+	actionContinuation := self createActionContinuationWithContext: renderContext.
 	
 	"Create URL"
 	actionUrl := actionContinuation registerForUrl: false.

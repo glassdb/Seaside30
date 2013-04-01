@@ -7,7 +7,7 @@ renderNavigationOn: html
 		with: [
 			html table: [
 				html tableRow: [
-					html tableData: [self renderNavElementsOn: html].
+					html tableData: [ self renderNavElementsOn: html ].
 					html tableData
 						verticalAlign: 'top';
-						with: [self renderBodyOn: html ] ] ] ]
+						with: [ self renderBodyOn: html ] ] ] ]

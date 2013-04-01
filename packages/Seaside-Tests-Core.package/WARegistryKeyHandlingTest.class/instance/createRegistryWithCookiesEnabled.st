@@ -4,5 +4,5 @@ createRegistryWithCookiesEnabled
 		method temps to have the same name as instance variables."
 	| newRegistry |
 	newRegistry := self createRegistry.
-	newRegistry configuration at: #useCookies put: true.
+	newRegistry configuration at: #trackingStrategy put: WACookieIfSupportedSessionTrackingStrategy new.
 	^ newRegistry

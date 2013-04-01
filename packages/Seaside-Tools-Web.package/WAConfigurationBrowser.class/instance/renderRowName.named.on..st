@@ -10,4 +10,4 @@ renderRowName: aHandler named: aString on: html
 			self dispatcher defaultHandler == aHandler
 				ifTrue: [ html span
 							title: 'Default handler';
-							with: ' (*)'] ]
+							with: ' (*)' ] ]

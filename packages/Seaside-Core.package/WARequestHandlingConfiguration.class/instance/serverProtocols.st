@@ -1,3 +1,3 @@
 private
 serverProtocols
-	^ #('http' 'https')
+	^ #(nil 'http' 'https')

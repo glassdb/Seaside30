@@ -1,0 +1,3 @@
+accessing
+endOfRequestHeaderMarker
+	^self class endOfRequestHeaderMarker

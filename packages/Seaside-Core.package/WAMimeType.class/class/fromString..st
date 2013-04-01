@@ -1,6 +1,6 @@
 instance creation
 fromString: aString 
-	| main endOfSub sub parts parameters slashIndex |
+	| main endOfSub sub parameters slashIndex |
 	slashIndex := aString indexOf: $/.
 	slashIndex = 0
 		ifTrue: [
@@ -27,11 +27,8 @@ fromString: aString
 		^ self 
 			main: main
 			sub: sub ].
-	parts := (aString 
-		copyFrom: endOfSub + 1
-		to: aString size) subStrings: ';'.
 	parameters := GRSmallDictionary new.
-	parts do: [ :each | 
+	GRPlatform subStringsIn: (aString copyFrom: endOfSub + 1 to: aString size) splitBy: $; do: [ :each |
 		parameters 
 			at: (each copyUpTo: $=) trimBoth
 			put: (each copyAfter: $=) trimBoth ].

@@ -1,6 +1,6 @@
 rendering
 renderAttribute: anAttribute on: html
-	[ (anAttribute isAdvanced not or: [self displayAdvancedAttributes])
+	[ (anAttribute isAdvanced not or: [ self displayAdvancedAttributes ])
 		ifTrue: [
 			html tableRow: [
 				html tableHeading: [

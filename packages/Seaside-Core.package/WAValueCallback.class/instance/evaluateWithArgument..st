@@ -1,4 +1,4 @@
 evaluation
 evaluateWithArgument: anObject
 	anObject isNil
-		ifFalse: [ block valueWithPossibleArguments: (Array with:  anObject) ]
+		ifFalse: [ block valueWithPossibleArguments: (Array with: anObject) ]

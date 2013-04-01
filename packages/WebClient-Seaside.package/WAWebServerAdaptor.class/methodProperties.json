@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"basicStart" : "ar 8/2/2010 20:30",
+		"basicStop" : "ar 7/20/2010 21:15",
+		"checkCert" : "ar 8/7/2010 12:44",
+		"isRunning" : "ar 7/20/2010 21:15",
+		"isSSLEnabled" : "ar 8/2/2010 20:14",
+		"isStarting" : "ar 7/20/2010 21:15",
+		"isStopped" : "ar 7/20/2010 21:16",
+		"isStopping" : "ar 7/20/2010 21:16",
+		"process:" : "ar 5/4/2010 20:44",
+		"requestAddressFor:" : "pmm 6/19/2010 07:06",
+		"requestBodyFor:" : "ar 5/4/2010 16:54",
+		"requestCookiesFor:" : "ar 7/20/2010 21:32",
+		"requestFieldsFor:" : "ar 7/20/2010 21:52",
+		"requestHeadersFor:" : "ar 7/20/2010 21:13",
+		"requestMethodFor:" : "ar 5/4/2010 16:45",
+		"requestUrlFor:" : "ar 7/31/2010 11:51",
+		"requestVersionFor:" : "ar 5/4/2010 16:46",
+		"responseFrom:" : "ar 7/20/2010 21:41",
+		"shutDown" : "ar 7/20/2010 21:15",
+		"startUp" : "ar 7/20/2010 21:15",
+		"statusString" : "ar 8/2/2010 20:27",
+		"toggleSSL" : "ar 8/7/2010 12:34" } }

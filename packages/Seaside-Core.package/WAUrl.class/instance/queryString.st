@@ -6,7 +6,7 @@ queryString
 	
 	^ String streamContents: [ :stream |
 		| urlEncoder |
-		urlEncoder := WAUrlEncoder on: stream.
+		urlEncoder := GRPlatform current urlEncoderOn: stream.
 		self queryFields associations
 			do: [ :each |
 				urlEncoder nextPutAll: each key.

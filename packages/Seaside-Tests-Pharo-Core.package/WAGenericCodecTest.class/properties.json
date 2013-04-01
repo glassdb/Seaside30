@@ -10,5 +10,5 @@
 	"name" : "WAGenericCodecTest",
 	"pools" : [
 		 ],
-	"super" : "WAEncoderTest",
+	"super" : "WAContextTest",
 	"type" : "normal" }

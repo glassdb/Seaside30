@@ -1,3 +1,3 @@
-status
+status-redirection
 statusMultipleChoices
 	^ 300

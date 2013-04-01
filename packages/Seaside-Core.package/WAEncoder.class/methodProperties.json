@@ -1,13 +1,7 @@
 {
 	"class" : {
-		"encode:on:" : "lr 4/8/2007 13:42",
-		"initializeTable" : "pmm 8/6/2011 15:51",
-		"maximumCharacterValue" : "lr 7/25/2011 19:48",
-		"new" : "jf 9/30/2009 00:19",
-		"on:" : "lr 3/26/2007 20:51",
-		"on:codec:" : "jf 1/23/2009 19:45",
-		"on:table:" : "jf 1/23/2009 19:44" },
+		"on:" : "pmm 8/14/2011 22:25" },
 	"instance" : {
-		"initializeOn:table:" : "jf 1/23/2009 19:05",
-		"nextPut:" : "pmm 12/26/2010 17:49",
-		"nextPutAll:" : "pmm 12/26/2010 18:03" } }
+		"initializeOn:" : "pmm 8/14/2011 13:16",
+		"nextPut:" : "pmm 8/14/2011 13:16",
+		"nextPutAll:" : "pmm 8/14/2011 13:16" } }

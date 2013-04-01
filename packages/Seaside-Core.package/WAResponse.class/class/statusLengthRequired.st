@@ -1,3 +1,3 @@
-status
+status-client-error
 statusLengthRequired
 	^ 411

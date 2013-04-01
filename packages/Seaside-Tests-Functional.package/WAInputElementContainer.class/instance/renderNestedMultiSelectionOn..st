@@ -7,7 +7,7 @@ renderNestedMultiSelectionOn: html
 			selectTag := html multiSelect.
 			selectTag
 				size: 6;
-				callback: [:value | nestedMultiSelection := value ];
+				callback: [ :value | nestedMultiSelection := value ];
 				selected: nestedMultiSelection;
 				with: [
 					self nestedElements do: [ :list |

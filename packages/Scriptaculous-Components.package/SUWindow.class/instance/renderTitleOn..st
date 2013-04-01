@@ -11,5 +11,5 @@ renderTitleOn: html
 					style: 'width:100%';
 					class: 'label';
 					with: title.
-				html tableData: [self renderMinimizeOn: html].
-				html tableData: [self renderCloseOn: html] ] ] 
+				html tableData: [ self renderMinimizeOn: html ] .
+				html tableData: [ self renderCloseOn: html ] ] ] 

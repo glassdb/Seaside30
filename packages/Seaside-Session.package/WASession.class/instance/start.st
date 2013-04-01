@@ -1,3 +1,3 @@
 handling
 start
-	self application mainClass new start
+	self application initialContinuationClass new handle: self requestContext

@@ -1,0 +1,18 @@
+{
+	"category" : "KomHttpServerLight-Protocol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"EndOfRequestHeaderMarker" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"url",
+		"stream",
+		"header",
+		"rawUrl",
+		"properties" ],
+	"name" : "HttpRequest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

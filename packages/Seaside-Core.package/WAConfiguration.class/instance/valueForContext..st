@@ -2,8 +2,7 @@ values-private
 valueForContext: aContext
 	aContext at: self ifPresent: [ :v | ^ v ].
 	
-	self expressionAt: aContext key ifPresent:
-		[ :expression |
+	self expressionAt: aContext key ifPresent: [ :expression |
 		^ aContext
 			at: self
 			put: (expression determineValueWithContext: aContext configuration: self) ].

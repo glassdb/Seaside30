@@ -4,4 +4,4 @@ isIpAddress: aString
 	ip := aString findTokens: '.'.
 	^ ip size = 4
 		and: [ ip allSatisfy: [ :each | each greaseInteger notNil
-			and: [ each greaseInteger between: 0 and: 255] ] ]
+			and: [ each greaseInteger between: 0 and: 255 ] ] ]

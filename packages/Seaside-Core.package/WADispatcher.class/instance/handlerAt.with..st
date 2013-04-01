@@ -1,3 +1,7 @@
 accessing
 handlerAt: aString with: aBlock
-	^ (aString subStrings: '/') inject: self into: aBlock
+	| dispatcher |
+	dispatcher := self.
+	GRPlatform subStringsIn: aString splitBy: $/ do: [ :token |
+		dispatcher := aBlock value: dispatcher value: token ].
+	^ dispatcher

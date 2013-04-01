@@ -11,4 +11,5 @@ requestFor: aNativeRequest
 			setPostFields: (self requestFieldsFor: aNativeRequest);
 			setCookies: (self requestCookiesFor: aNativeRequest);
 			setRemoteAddress: (self requestAddressFor: aNativeRequest);
+			setSslSessionId: (self sslSessionIdFor: aNativeRequest);
 			yourself

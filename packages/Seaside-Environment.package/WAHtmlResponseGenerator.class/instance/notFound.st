@@ -1,8 +1,10 @@
 generation
 notFound
+	self ifResetPossible: [
+		self response
+			notFound;
+			contentType: WAMimeType textHtml ].
 	self response
-		notFound;
-		contentType: WAMimeType textHtml;
 		nextPutAll: (WAHtmlCanvas builder
 			fullDocument: true;
 			rootBlock: [ :root | root title: 'Not Found' ];

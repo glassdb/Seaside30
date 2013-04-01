@@ -8,11 +8,11 @@ currentCollectionAt: key
 		ifTrue: [ attributeCollection := (self at: key) collect: [ :each | #inherited -> each ] ]
 		ifFalse: [
 			(expression isKindOf: WAValueExpression)
-				ifTrue: [attributeCollection := (expression value collect: [:each | #self -> each ]) asOrderedCollection]
-				ifFalse: [attributeCollection := (expression additions collect: [:each | #add -> each]) asOrderedCollection.
-							attributeCollection addAll: (expression removals collect: [:each | #remove -> each ]).
+				ifTrue: [ attributeCollection := (expression value collect: [ :each | #self -> each ]) asOrderedCollection ]
+				ifFalse: [ attributeCollection := (expression additions collect: [ :each | #add -> each ]) asOrderedCollection.
+							attributeCollection addAll: (expression removals collect: [ :each | #remove -> each ]).
 							(self at: key) reverse
 								do: [ :each |
-										(attributeCollection detect: [:assoc | assoc value = each] ifNone: []) isNil
-												ifTrue: [attributeCollection addFirst: #inherited -> each ] ] ] ].
+										(attributeCollection detect: [ :assoc | assoc value = each ] ifNone: [ ]) isNil
+												ifTrue: [ attributeCollection addFirst: #inherited -> each ] ] ] ].
 	^ attributeCollection

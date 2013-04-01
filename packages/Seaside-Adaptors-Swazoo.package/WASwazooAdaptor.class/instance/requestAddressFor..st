@@ -5,9 +5,9 @@ requestAddressFor: aNativeRequest
 	remoteAddress := aNativeRequest peer.
 	remoteAddress isString ifTrue: [
 		"so apparently someone has a new VM with IPv6 support"
-		^remoteAddress ].
+		^ remoteAddress ].
 	
-	^String streamContents: [ :stream |
+	^ String streamContents: [ :stream |
 		remoteAddress
 			do: [ :each | stream print: each ]
 			separatedBy: [ stream nextPut: $. ] ]

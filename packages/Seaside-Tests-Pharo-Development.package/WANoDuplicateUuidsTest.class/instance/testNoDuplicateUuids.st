@@ -1,7 +1,14 @@
 tests
 testNoDuplicateUuids
-	| duplicates workingCopies |
-	workingCopies := WADevelopment allPackages collect: [ :each |
-		 WADevelopment workingCopyFor: each ].
-	duplicates := self checkForDuplicates: workingCopies.
-	self assert: duplicates isEmpty
+	| workingCopies versionAncestries uuidsToVersion |
+	workingCopies := WADevelopment allPackages
+		collect: [ :each | WADevelopment workingCopyFor: each ].
+	versionAncestries := workingCopies
+		gather: [ :each | each ancestry breadthFirstAncestors ].
+	uuidsToVersion := Dictionary new: versionAncestries size.
+	versionAncestries do: [ :version |
+		| uuid |
+		uuid := version id.
+		(uuidsToVersion includesKey: uuid)
+			ifTrue: [ self signalFailure: version name, ' and ', (uuidsToVersion at: uuid) name , ' have duplicated UUIDs' ].
+		uuidsToVersion at: uuid put: version ]

@@ -1,0 +1,14 @@
+{
+	"category" : "WebClient-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAWebServerSSLCommand",
+	"pools" : [
+		 ],
+	"super" : "OBCommand",
+	"type" : "normal" }
