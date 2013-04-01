@@ -12,11 +12,11 @@ env:
 #   - ST=PharoCore-1.1 LOADS="'Development Tests'"
 #   - ST=PharoCore-1.2 LOADS="'Development Tests'"
 #   - ST=PharoCore-1.3 LOADS="'Development Tests'"
-   - ST=Pharo-1.4 LOADS="'Development Tests'"
+#   - ST=Pharo-1.4 LOADS="'Development Tests'"
 
-   - ST=Squeak-4.3 LOADS="'Development Tests'"
-   - ST=Squeak-4.4 LOADS="'Development Tests'"
-   - ST=Squeak-4.5 LOADS="'Development Tests'"
+#   - ST=Squeak-4.3 LOADS="'Development Tests'"
+#   - ST=Squeak-4.4 LOADS="'Development Tests'"
+#   - ST=Squeak-4.5 LOADS="'Development Tests'"
 
 install:
    - export PROJECT_HOME="$(pwd)"
