@@ -52,7 +52,8 @@ false ifTrue:[TravisCIHarness
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.].
 
-WAPrettyPrintedDocumentTest debug: #'testKnownEventsInTagBrush'.
+
+(Smalltalk at: #WAPrettyPrintedDocumentTest) debug: #'testKnownEventsInTagBrush'.
 
 EOF
 
