@@ -12,6 +12,6 @@ initializeTable
 		self encode: character on: stream reset.
 		"Smalltalk indices are one based but character values start at 0"
 		value := stream contents = (String with: character)
-			ifTrue: [ nil ]
+			ifTrue: [ character ]
 			ifFalse: [ stream contents ].
 		table at: index + 1 put: value ]

@@ -4,11 +4,12 @@ search: aSearchBlock labels: aLabelsBlock callback: aCallbackBlock
 	
 	| term mapping |
 	mapping := IdentityDictionary new.
+	term := Array new: 1. "In GS, we cannot assign to a temp, so we create a valueholder"
 	self source: ((self jQuery getJson
-		callback: [ :value | term := value ]
+		callback: [ :value | term at: 1 put: value ]
 		value: (JSStream on: 'request.term');
 		text: [ :stream | 
-			stream json: ((aSearchBlock value: term) asArray collect: [ :object | 
+			stream json: ((aSearchBlock value: (term at: 1)) asArray collect: [ :object | 
 				GRSmallDictionary new
 					at: 'label' put: (aLabelsBlock value: object);
 					at: 'index' put: (mapping at: object ifAbsentPut: [ mapping size + 1 ]);
@@ -16,10 +17,10 @@ search: aSearchBlock labels: aLabelsBlock callback: aCallbackBlock
 		onSuccess: 'response(arguments[0])'; 
 		dataType: 'jsonp') asFunction: #('request' 'response')).
 	self onSelect: ((self jQuery ajax
-		callback: [ :value | term := value greaseInteger ] 
+		callback: [ :value | term at: 1 put: value greaseInteger ] 
 		value: (JSStream on: 'ui.item.index');
 		script: [ :script |
 			mapping keysAndValuesDo: [ :object :value |
-				value = term
+				value = (term at: 1)
 					ifTrue: [ aCallbackBlock value: object value: script ] ] ])
 		asFunction: #('event' 'ui'))

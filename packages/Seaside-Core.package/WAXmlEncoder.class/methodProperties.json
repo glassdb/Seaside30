@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"encode:on:" : "lr 7/25/2011 19:05",
-		"initialize" : "pmm 3/20/2012 19:06",
-		"maximumCharacterValue" : "pmm 12/26/2010 22:26" },
+		"initialize" : "pmm 3/20/2012 19:06" },
 	"instance" : {
-		"nextPutAll:" : "pmm 12/26/2010 17:55" } }
+		 } }
