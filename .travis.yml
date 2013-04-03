@@ -30,6 +30,6 @@ install:
 
 before_script:
    - export BASELINE="Seaside30"
-   - export REPOSITORY_BASE="Seaside30/pkgs"
+   - export REPOSITORY_BASE="Seaside30/repository"
 
 script: $PROJECT_HOME/tests/testTravisCI.sh -verbose
