@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'BaselineOfSeaside30'!
+SystemOrganization addCategory: #BaselineOfSeaside30!

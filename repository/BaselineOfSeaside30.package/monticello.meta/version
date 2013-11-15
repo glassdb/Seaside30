@@ -1,1 +1,8 @@
-(name 'BaselineOfSeaside30-dkh.1' message 'just getting started' id '0dba22db-2d4b-4c07-99e3-e7f2e8098f7f' date '03/12/2013' time '16:14:10' author 'dkh' ancestors () stepChildren ())
+(name 'BaselineOfSeaside30-otto.2'
+message 'make zinc a baseline '
+id '212f8e37-7055-40f8-b306-f7e48f17696b'
+date '2013/11/15'
+time '14:50:13.155'
+author 'otto'
+ancestors ()
+stepChildren ())
