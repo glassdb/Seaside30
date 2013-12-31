@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"on:" : "jf 3/13/2009 18:15" },
+	"instance" : {
+		"buildReport" : "otto 12/31/2013 14:12",
+		"children" : "lr 12/30/2008 16:31",
+		"initializeOn:" : "jf 3/13/2009 18:15",
+		"items" : "lr 12/30/2008 16:33",
+		"message" : "lr 12/30/2008 16:47",
+		"message:" : "otto 12/31/2013 14:10",
+		"renderContentOn:" : "lr 2/20/2009 22:32",
+		"report" : "lr 12/30/2008 16:30" } }
