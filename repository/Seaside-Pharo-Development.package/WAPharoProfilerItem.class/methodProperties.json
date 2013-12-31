@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"duration" : "otto 12/31/2013 14:57",
 		"leavesBySends" : "pmm 11/21/2009 12:55",
 		"leavesByTime" : "pmm 11/21/2009 12:56",
-		"profile:" : "pmm 11/21/2009 12:47",
 		"renderCommandsOn:tool:" : "otto 12/31/2013 14:10",
+		"runProfilerOn:" : "otto 12/31/2013 15:15",
 		"stats" : "lr 12/30/2008 16:58",
+		"tally" : "otto 12/31/2013 14:55",
 		"tree" : "lr 12/30/2008 16:59" } }

@@ -1,0 +1,3 @@
+rendering
+runProfilerOn: aBlock
+	self subclassResponsibility
