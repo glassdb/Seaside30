@@ -1,8 +1,8 @@
-(name 'Seaside-Development-otto.157'
+(name 'Seaside-Development-otto.159'
 message 'added profiler abstract so we can use this code in GemStone as well'
-id '2169a348-a78f-4b75-a093-7f74d8f1744e'
+id 'b1c601b4-576d-4211-b394-20b043c22f18'
 date '2013/12/31'
-time '14:26:09.28'
+time '15:19:40.875'
 author 'otto'
 ancestors ()
 stepChildren ())

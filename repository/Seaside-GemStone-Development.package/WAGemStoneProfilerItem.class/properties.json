@@ -1,13 +1,13 @@
 {
-	"category" : "Seaside-Pharo-Development-Core-Profiler",
+	"category" : "Seaside-GemStone-Development-Core-Profiler",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tally" ],
-	"name" : "WAPharoProfilerItem",
+		 ],
+	"name" : "WAGemStoneProfilerItem",
 	"pools" : [
 		 ],
 	"super" : "WAProfilerItem",

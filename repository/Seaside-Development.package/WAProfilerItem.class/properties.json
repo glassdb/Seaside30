@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"request",
 		"start",
-		"tally",
-		"request" ],
+		"end" ],
 	"name" : "WAProfilerItem",
 	"pools" : [
 		 ],
