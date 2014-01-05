@@ -1,8 +1,1 @@
-(name 'Seaside-Development-otto.159'
-message 'added profiler abstract so we can use this code in GemStone as well'
-id 'b1c601b4-576d-4211-b394-20b043c22f18'
-date '2013/12/31'
-time '15:19:40.875'
-author 'otto'
-ancestors ()
-stepChildren ())
+(name 'Seaside-Development-dkh.160' message 'fix WAProfilerItem>>profile:  so that the #end iv gets set ... have to use #ensure: because any statements following the aBlock execution are not executed, because continuations are snapped off ... the block is run from handleFiltered: ....' id '45d257b0-2113-481b-bdae-e309b6920641' date '01/05/2014' time '10:55:06' author 'dkh' ancestors ((name 'Seaside-Development-otto.159' message 'added profiler abstract so we can use this code in GemStone as well' id 'b1c601b4-576d-4211-b394-20b043c22f18' date '01/05/2014' time '15:19:40' author 'otto' ancestors () stepChildren ())) stepChildren ())

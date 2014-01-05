@@ -1,3 +1,5 @@
 comparing
 = otherVersion
-	^ (major = otherVersion major) and: [ minor = otherVersion minor ]
+  (otherVersion isKindOf: self class)
+    ifFalse: [ ^ false ].
+  ^ major = otherVersion major and: [ minor = otherVersion minor ]

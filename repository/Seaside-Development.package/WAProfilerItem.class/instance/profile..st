@@ -1,7 +1,6 @@
 rendering
 profile: aBlock
-	| result |
-	self startProfiling.
-	result := self runProfilerOn: aBlock.
-	self endProfiling.
-	^ result
+  [ 
+  self startProfiling.
+  ^ self runProfilerOn: aBlock ]
+    ensure: [ self endProfiling ]

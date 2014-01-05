@@ -6,4 +6,3 @@ keyFromFieldValue: aStringOrNil cookie: aCookieOrNil
 	aStringOrNil isNil ifFalse: [ ^ aStringOrNil ].
 	aCookieOrNil isNil ifFalse: [ ^ aCookieOrNil value ].
 	^ nil
-	
