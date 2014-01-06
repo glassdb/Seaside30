@@ -22,12 +22,14 @@ EOF
 
 if [ "${GLASS}x" != "x" ] ; then
 cat - >> $OUTPUT_PATH << EOF
-Metacello image
-  project: 'GLASS';
+Metacello new
+  configuration: 'GLASS';
+  repository: 'http://seaside.gemstone.com/ss/MetacelloRepository';
   get.
 Metacello image
-  project: 'GLASS';
+  configuration: 'GLASS';
   version: '${GLASS}';
+  repository: 'http://seaside.gemstone.com/ss/MetacelloRepository';
   load.
 EOF
 fi
