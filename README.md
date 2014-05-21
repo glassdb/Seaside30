@@ -3,4 +3,4 @@ Seaside30 [![Build Status](https://travis-ci.org/glassdb/Seaside30.png?branch=ma
 
 GemStone/S port of http://www.seaside.st/
 
-You're lookin' at Seaside 3.0.7.1.
+You're lookin' at Seaside 3.0.10.
